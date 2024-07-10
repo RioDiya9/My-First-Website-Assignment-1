@@ -1,0 +1,27 @@
+
+
+/* Nav styles */
+.azeret-mono-normal {
+  font-family: "Azeret Mono", monospace;
+  font-optical-sizing: auto;
+  font-weight: 800;
+  font-style: normal;
+}
+/* div style */
+.container{
+    display: flex;
+    gap: 20px;
+    width: 998px;
+    height: 582px;
+    margin: 157px 221px 450;
+}
+.box{
+    display: flex;
+    flex-direction:column ;
+    justify-content: flex-start;
+    align align-items: center;
+    padding: 0;
+
+}
+    
+}
