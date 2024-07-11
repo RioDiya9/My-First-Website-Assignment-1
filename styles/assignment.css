@@ -1,13 +1,45 @@
 
+*{
+  margin: 0;
+  padding: 0;
+}
 
-.azeret-mono-normal{
-  font-family: "Azeret Mono", monospace;
-  font-optical-sizing: auto;
-  font-weight: <weight>;
-  font-style: .azeret-mono-normal 
-    
+
+
+#Confidance{
+  height: 463px;
+  background-image:url(image),url("../assets/Hero-bg.png");
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
 }
-.Confidence{
-  height: 1173.6px;
-  background-image: url("../assets/Hero-bg.png");
+
+#Confidence.confidence-content{
+  width: 998px;
 }
+
+#Confidence.confidence-content.title{
+  color: rgb(13, 19, 33);
+font-family: Azeret Mono;
+font-size: 48px;
+font-weight: 800;
+line-height: 68px;
+letter-spacing: 0%;
+text-align: center;
+opacity: 0.7;
+}
+
+#Confidence.confidence-content.title{
+  color: rgb(13, 19, 33);
+font-family: Azeret Mono;
+font-size: 16px;
+font-weight: 400;
+line-height: 26px;
+letter-spacing: 0%;
+text-align: center;
+opacity: 0.7;
+}
+
